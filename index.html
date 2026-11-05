@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><link rel="icon" href="favicon.ico?v=2">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nhà sách Grow with English · Chuyên đề ngữ pháp Tiếng Anh 9</title>
+<meta name="description" content="Sách Chuyên đề ngữ pháp Tiếng Anh 9 của Ms. Minh Thư: 12 chuyên đề bám sát SGK, lý thuyết dễ hiểu, luyện tập theo từng mục, bài test 50 câu. Đọc thử miễn phí.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+<style>
+:root{--xanh:#5A923F;--xanh-dam:#2E5424;--xanh-nhat:#EAF3E3;--cam:#E8742F;--cam-dam:#C95A1A;--cam-nhat:#FDEBDD;--kem:#FFFEF4;--nen:#FAF7EE;--chu:#2A2A25;--phu:#66665C;--vien:#E6E1D2;--bong:0 6px 22px rgba(46,84,36,.10)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--nen);color:var(--chu);font:16px/1.6 "Be Vietnam Pro",system-ui,sans-serif}
+h1,h2,h3{font-family:"Baloo 2",sans-serif;line-height:1.2;margin:0;color:var(--xanh-dam)}
+a{color:inherit}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+.mau{background:#FFF4C2;color:#6B5300;text-align:center;font-size:13px;padding:6px 12px}
+/* đầu trang */
+header{position:sticky;top:0;z-index:20;background:rgba(255,254,244,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--vien)}
+header .wrap{display:flex;align-items:center;gap:12px;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;margin-right:auto;min-width:0}
+.brand img{width:44px;height:44px}
+.brand b{display:block;font-family:"Baloo 2";font-size:19px;color:var(--xanh-dam);line-height:1.1}
+.brand small{display:block;font-size:12px;color:var(--cam-dam);font-style:italic;white-space:nowrap}
+.gio-btn{position:relative;display:flex;align-items:center;gap:8px;border:0;background:var(--xanh-dam);color:#fff;border-radius:999px;padding:9px 16px;font-weight:600}
+.gio-btn .so{background:var(--cam);border-radius:999px;min-width:22px;height:22px;display:inline-grid;place-items:center;font-size:13px;padding:0 6px}
+/* menu kệ */
+.ke{display:flex;gap:8px;overflow-x:auto;padding:12px 0 2px;scrollbar-width:none}
+.ke::-webkit-scrollbar{display:none}
+.ke a,.ke span{flex:none;text-decoration:none;font-size:14px;font-weight:600;padding:7px 14px;border-radius:999px;border:1px solid var(--vien);background:#fff;color:var(--phu)}
+.ke a.on{background:var(--xanh);border-color:var(--xanh);color:#fff}
+.ke span{opacity:.6}
+/* hero */
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center;padding:28px 0 12px}
+.nhan{display:inline-block;background:var(--cam-nhat);color:var(--cam-dam);font-weight:700;font-size:13px;letter-spacing:.06em;padding:5px 12px;border-radius:999px;margin-bottom:12px}
+.hero h1{font-size:clamp(32px,5vw,50px)}
+.hero h1 em{font-style:normal;color:var(--cam)}
+.hero p.lead{font-size:17px;color:var(--phu);margin:12px 0 18px;max-width:560px}
+.dau{list-style:none;padding:0;margin:0 0 22px;display:grid;gap:8px}
+.dau li{display:flex;gap:10px;align-items:flex-start}
+.dau li::before{content:"";flex:none;width:20px;height:20px;margin-top:3px;border-radius:50%;background:var(--xanh) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5.5 10.5l3 3 6-7' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain}
+.nut{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:12px;padding:12px 20px;font-weight:700;text-decoration:none}
+.nut.chinh{background:var(--cam);color:#fff;box-shadow:0 4px 0 var(--cam-dam)}
+.nut.phu{background:#fff;color:var(--xanh-dam);border:2px solid var(--xanh)}
+.nut:active{transform:translateY(2px)}
+.hero .nuts{display:flex;gap:10px;flex-wrap:wrap}
+.chong{position:relative;height:440px}
+.chong img{position:absolute;width:62%;aspect-ratio:210/297;object-fit:cover;border-radius:6px;box-shadow:0 18px 40px rgba(27,55,19,.28)}
+.chong img:first-child{left:0;top:30px;transform:rotate(-5deg)}
+.chong img:last-child{right:0;top:0;transform:rotate(4deg)}
+/* ưu đãi */
+.uudai{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:26px 0 8px}
+.ud{background:#fff;border:1px solid var(--vien);border-radius:16px;padding:14px 16px;text-align:center}
+.ud b{display:block;font-family:"Baloo 2";font-size:24px;color:var(--cam-dam);line-height:1.2}
+.ud span{font-size:14px;color:var(--phu)}
+.ud.noi{background:var(--xanh-dam);border-color:var(--xanh-dam)}
+.ud.noi b{color:#FFD9BD}.ud.noi span{color:#E8F0E2}
+/* khối tiêu đề mục */
+section{padding:34px 0 8px}
+.tieude{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.tieude h2{font-size:30px}
+.tieude p{margin:2px 0 0;color:var(--phu)}
+/* công tắc HS/GV */
+.ban{display:inline-flex;background:#fff;border:1px solid var(--vien);border-radius:999px;padding:4px}
+.ban button{border:0;background:none;border-radius:999px;padding:7px 14px;font-weight:600;color:var(--phu);font-size:14px}
+.ban button.on{background:var(--xanh-dam);color:#fff}
+/* thẻ sách */
+.luoi{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.the{background:#fff;border:1px solid var(--vien);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--bong)}
+.the .anh{position:relative;background:var(--xanh-nhat);padding:18px 18px 0;display:flex;justify-content:center}
+.the .anh img{width:66%;aspect-ratio:210/297;object-fit:cover;border-radius:4px 4px 0 0;box-shadow:0 8px 22px rgba(27,55,19,.25)}
+.tem{position:absolute;top:12px;left:12px;background:var(--cam);color:#fff;font-weight:700;font-size:13px;padding:3px 10px;border-radius:999px}
+.tem.xanh{background:var(--xanh-dam)}
+.combo-anh{position:relative;width:78%;height:100%;aspect-ratio:1.05}
+.combo-anh img{position:absolute;width:62%!important;bottom:0}
+.combo-anh img:first-child{left:0;transform:rotate(-6deg)}
+.combo-anh img:last-child{right:0;transform:rotate(5deg)}
+.the .noi-dung{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.the h3{font-size:21px}
+.the .mo{font-size:14px;color:var(--phu);margin:4px 0 10px}
+.the ul{margin:0 0 12px;padding-left:18px;font-size:14px;color:var(--phu)}
+.gia{display:flex;align-items:baseline;gap:8px;margin:auto 0 12px}
+.gia b{font-family:"Baloo 2";font-size:28px;color:var(--cam-dam)}
+.gia s{color:#A09C8C;font-size:15px}
+.gia .giam{background:var(--cam-nhat);color:var(--cam-dam);font-size:13px;font-weight:700;border-radius:6px;padding:1px 7px}
+.hang{display:grid;grid-template-columns:1fr 1.3fr;gap:8px}
+.hang .nut{padding:10px 12px;font-size:15px}
+.nut.da{background:var(--xanh);box-shadow:0 4px 0 var(--xanh-dam)}
+/* chuyên đề lẻ */
+.cd-luoi{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.cd{background:#fff;border:1px solid var(--vien);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.cd .bia{position:relative;aspect-ratio:4/3;background:linear-gradient(150deg,#7DB65A,#4C8438 55%,#1B3713);color:var(--kem);padding:14px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.cd .bia::before{content:"";position:absolute;right:-30px;top:-30px;width:120px;height:120px;border-radius:50%;background:rgba(255,254,244,.08)}
+.cd .bia .so{position:absolute;right:12px;top:4px;font-family:"Baloo 2";font-weight:800;font-size:64px;line-height:1;color:var(--cam);text-shadow:0 3px 0 rgba(0,0,0,.18)}
+.cd .bia small{font-size:11px;letter-spacing:.12em;font-weight:700;opacity:.85}
+.cd .bia b{font-family:"Baloo 2";font-size:17px;line-height:1.2}
+.cd .bia.t2{background:linear-gradient(150deg,#F3A06A,#E8742F 50%,#9E4510)}
+.cd .bia.t2 .so{color:var(--kem)}
+.cd .duoi{padding:10px 12px 12px;display:flex;flex-direction:column;gap:8px;flex:1}
+.cd .duoi span{font-size:13px;color:var(--phu)}
+.cd .duoi .gl{display:flex;align-items:center;justify-content:space-between;margin-top:auto}
+.cd .duoi .gl b{font-family:"Baloo 2";font-size:20px;color:var(--cam-dam)}
+.cd .them{border:2px solid var(--xanh);background:#fff;color:var(--xanh-dam);border-radius:10px;padding:5px 12px;font-weight:700;font-size:14px}
+.cd .them.da{background:var(--xanh);color:#fff}
+.goiy{margin:14px 0 0;font-size:14px;color:var(--phu);text-align:center}
+/* bên trong */
+.trong{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.o{background:#fff;border:1px solid var(--vien);border-radius:16px;padding:18px}
+.o .ic{width:42px;height:42px;border-radius:12px;background:var(--xanh-nhat);display:grid;place-items:center;margin-bottom:10px}
+.o .ic svg{width:24px;height:24px;stroke:var(--xanh-dam);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.o h3{font-size:19px;margin-bottom:4px}
+.o p{margin:0;font-size:14px;color:var(--phu)}
+/* hỏi đáp */
+details{background:#fff;border:1px solid var(--vien);border-radius:14px;padding:14px 18px;margin-bottom:10px}
+summary{font-weight:700;cursor:pointer;color:var(--xanh-dam)}
+details p{margin:8px 0 0;color:var(--phu)}
+/* chân trang */
+footer{margin-top:40px;background:var(--xanh-dam);color:#E8F0E2;padding:30px 0 90px;font-size:14px}
+footer .cot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:24px}
+footer h3{color:#fff;font-size:18px;margin-bottom:8px}
+footer a{color:#FFD9BD}
+footer p{margin:4px 0}
+/* thanh giỏ dưới (điện thoại) */
+.thanh{position:fixed;left:0;right:0;bottom:0;z-index:25;background:#fff;border-top:1px solid var(--vien);box-shadow:0 -6px 20px rgba(0,0,0,.08);padding:10px 16px;display:none;align-items:center;gap:12px}
+.thanh.hien{display:flex}
+.thanh div{flex:1;font-size:14px;line-height:1.3}
+.thanh div b{display:block;font-family:"Baloo 2";font-size:20px;color:var(--cam-dam)}
+/* ngăn kéo giỏ */
+.man{position:fixed;inset:0;background:rgba(20,30,15,.45);z-index:40;display:none}
+.man.mo{display:block}
+.ngan{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--kem);z-index:41;transform:translateX(100%);transition:transform .25s;display:flex;flex-direction:column}
+.ngan.mo{transform:none}
+.ngan .dau-ngan{display:flex;align-items:center;justify-content:space-between;padding:16px 18px;border-bottom:1px solid var(--vien)}
+.ngan h2{font-size:24px}
+.x{border:0;background:#fff;border:1px solid var(--vien);width:36px;height:36px;border-radius:50%;font-size:18px}
+.buoc{display:flex;gap:6px;padding:10px 18px 0;font-size:12px;color:var(--phu)}
+.buoc span{flex:1;text-align:center;padding:5px;border-radius:8px;background:#fff;border:1px solid var(--vien)}
+.buoc span.on{background:var(--xanh-nhat);border-color:var(--xanh);color:var(--xanh-dam);font-weight:700}
+.ds{flex:1;overflow:auto;padding:12px 18px}
+.mon{display:flex;gap:10px;align-items:center;background:#fff;border:1px solid var(--vien);border-radius:12px;padding:10px;margin-bottom:8px}
+.mon .chip{flex:none;width:40px;height:52px;border-radius:4px;background:linear-gradient(150deg,#7DB65A,#1B3713);color:var(--cam);font-family:"Baloo 2";font-weight:800;display:grid;place-items:center;font-size:15px}
+.mon .chip.t2{background:linear-gradient(150deg,#F3A06A,#9E4510);color:var(--kem)}
+.mon .chip img{width:100%;height:100%;object-fit:cover;border-radius:4px}
+.mon div{flex:1;font-size:14px;line-height:1.35}
+.mon div small{color:var(--phu)}
+.mon .xoa{border:0;background:none;color:#B04A2A;font-size:13px;font-weight:600}
+.trong-gio{text-align:center;color:var(--phu);padding:30px 10px}
+.goi-ap{background:var(--xanh-nhat);border-radius:12px;padding:10px 12px;font-size:14px;color:var(--xanh-dam);margin:4px 0 8px}
+.goi-ap b{display:block}
+.nhac{background:var(--cam-nhat);color:var(--cam-dam);border-radius:12px;padding:10px 12px;font-size:14px;font-weight:600;margin-bottom:8px}
+.tong{border-top:1px solid var(--vien);padding:14px 18px 18px;background:#fff}
+.tong .dong{display:flex;justify-content:space-between;font-size:14px;color:var(--phu);margin-bottom:4px}
+.tong .dong.lon{font-size:18px;color:var(--chu);font-weight:700;margin:8px 0 12px}
+.tong .dong.lon b{font-family:"Baloo 2";font-size:26px;color:var(--cam-dam)}
+.tong .nut{width:100%}
+.tong p{font-size:12px;color:var(--phu);margin:8px 0 0;text-align:center}
+/* đọc thử */
+.lat{position:fixed;inset:0;z-index:50;background:rgba(20,30,15,.82);display:none;flex-direction:column;align-items:center;justify-content:center;padding:16px}
+.lat.mo{display:flex}
+.lat .khung{background:var(--kem);border-radius:18px;width:min(980px,100%);max-height:100%;display:flex;flex-direction:column;overflow:hidden}
+.lat .dau-ngan{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--vien)}
+.lat h2{font-size:20px}
+.trang{flex:1;display:flex;justify-content:center;gap:6px;padding:16px;min-height:0;background:#EEE9DA}
+.trang img{max-height:68vh;max-width:100%;width:auto;background:#fff;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+.trang img+img{display:block}
+.lat .dk{display:flex;align-items:center;justify-content:center;gap:12px;padding:12px}
+.lat .dk span{min-width:110px;text-align:center;font-weight:600;color:var(--phu)}
+.lat .het{display:none;text-align:center;padding:0 16px 14px}
+.lat .het.hien{display:block}
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;gap:10px}
+  .chong{height:340px;max-width:420px;margin:0 auto;width:100%}
+  .uudai{grid-template-columns:repeat(2,1fr)}
+  .luoi{grid-template-columns:1fr 1fr}
+  .cd-luoi{grid-template-columns:repeat(3,1fr)}
+  .trong{grid-template-columns:1fr 1fr}
+  footer .cot{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .brand small{display:none}
+  .gio-btn .chu{display:none}
+  .luoi{grid-template-columns:1fr}
+  .cd-luoi{grid-template-columns:1fr 1fr}
+  .trong{grid-template-columns:1fr}
+  .tieude h2{font-size:26px}
+  .trang img+img{display:none}
+  .trang img{max-height:62vh}
+}
+</style></head><body>
+
+<div class="mau">Nhà sách đang mở thử · đặt sách qua Zalo của cô</div>
+
+<header><div class="wrap">
+  <a class="brand" href="#top"><img src="anh/logo.png" alt="Logo Ms. Minh Thư"><span><b>Nhà sách Grow with English</b><small>Tiếng Anh Ms. Minh Thư</small></span></a>
+  <button class="gio-btn" id="moGio" aria-label="Mở giỏ sách"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/><circle cx="10" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg><span class="chu">Giỏ sách</span><span class="so" id="soGio">0</span></button>
+</div></header>
+
+<main class="wrap" id="top">
+  <nav class="ke" aria-label="Kệ sách">
+    <a class="on" href="#top">Tiếng Anh 9</a><span>Tiếng Anh 7 · sắp lên kệ</span><span>Tiếng Anh 10 · sắp lên kệ</span><span>Tiếng Anh 11 · sắp lên kệ</span><span>Tiếng Anh 12 · sắp lên kệ</span>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <span class="nhan">SÁCH LUYỆN TẬP THEO CHUYÊN ĐỀ</span>
+      <h1>Chuyên đề ngữ pháp <em>Tiếng Anh 9</em></h1>
+      <p class="lead">12 chuyên đề đi theo từng unit trong SGK Tiếng Anh 9. Lý thuyết ngắn, dễ hiểu, rồi luyện ngay từng phần nhỏ, để em nắm chắc ngữ pháp và tự tin bước vào kỳ thi vào lớp 10.</p>
+      <ul class="dau">
+        <li>Bám sát chương trình SGK Tiếng Anh 9, dùng từ vựng của từng unit</li>
+        <li>Mỗi mục lý thuyết có 20 câu luyện tập, cuối chương có bài test 50 câu</li>
+        <li>Bản giáo viên có đáp án và dịch nghĩa từng câu</li>
+      </ul>
+      <div class="nuts"><a class="nut chinh" href="#sach">Xem sách và giá</a><button class="nut phu" data-docthu="1">Đọc thử Tập 1</button></div>
+    </div>
+    <div class="chong"><img src="anh/bia-9-1.jpg" alt="Bìa Chuyên đề ngữ pháp Tiếng Anh 9 Tập 1"><img src="anh/bia-9-2.jpg" alt="Bìa Chuyên đề ngữ pháp Tiếng Anh 9 Tập 2"></div>
+  </div>
+
+  <div class="uudai" id="uudai"></div>
+
+  <section id="sach">
+    <div class="tieude">
+      <div><h2>Chọn sách</h2><p>Mua theo tập hoặc cả năm để được giá tốt nhất.</p></div>
+      <div class="ban" role="group" aria-label="Chọn bản"><button data-ban="hs" class="on">Bản Học sinh</button><button data-ban="gv">Bản Giáo viên (có đáp án)</button></div>
+    </div>
+    <div class="luoi" id="luoiSach"></div>
+  </section>
+
+  <section id="le">
+    <div class="tieude"><div><h2>Mua lẻ từng chuyên đề</h2><p>Em chỉ cần ôn một phần? Chọn đúng chuyên đề em cần.</p></div></div>
+    <div class="cd-luoi" id="luoiCd"></div>
+    <p class="goiy">Chọn chuyên đề nào cũng được, giỏ sách tự tính gói rẻ nhất cho em.</p>
+  </section>
+
+  <section id="ben-trong">
+    <div class="tieude"><div><h2>Mỗi chuyên đề có gì?</h2><p>Cùng một khung rõ ràng, học đến đâu chắc đến đó.</p></div></div>
+    <div class="trong">
+      <div class="o"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg></div><h3>Mục tiêu bài học</h3><p>4 mục tiêu ngắn ở đầu chương, em biết mình sẽ học được gì.</p></div>
+      <div class="o"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 10h16M4 15h10M4 20h7"/></svg></div><h3>Lý thuyết A, B, C…</h3><p>Chia nhỏ từng mục, có bảng công thức và ví dụ dễ hiểu.</p></div>
+      <div class="o"><div class="ic"><svg viewBox="0 0 24 24"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg></div><h3>20 câu sau mỗi mục</h3><p>Học xong phần nào luyện ngay phần đó, trình bày gọn trong bảng 2 cột.</p></div>
+      <div class="o"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg></div><h3>Luyện tập tổng hợp và BTVN</h3><p>7 bài tổng hợp và 3 phần bài tập về nhà, mỗi phần 10 câu.</p></div>
+      <div class="o"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/></svg></div><h3>Bảng tự kiểm tra</h3><p>Cuối chương em tự trả lời lại các ý chính, biết ngay chỗ nào chưa chắc.</p></div>
+      <div class="o"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M9 12h7M9 16h7M9 8h3"/></svg></div><h3>Bài test 50 câu</h3><p>Trắc nghiệm, tìm lỗi, đọc điền, viết lại câu và dịch hai chiều.</p></div>
+    </div>
+  </section>
+
+  <section id="hoi-dap">
+    <div class="tieude"><div><h2>Câu hỏi thường gặp</h2></div></div>
+    <details><summary>Em nhận sách bằng cách nào?</summary><p>Sau khi cô xác nhận chuyển khoản, sách được gửi dạng file PDF qua email hoặc Zalo của em. Em mở được trên điện thoại, máy tính bảng, máy tính, hoặc in ra để làm.</p></details>
+    <details><summary>Bản Học sinh và bản Giáo viên khác nhau thế nào?</summary><p>Bản Học sinh để trống chỗ làm bài. Bản Giáo viên có đáp án màu đỏ và dịch nghĩa từng câu, dành cho thầy cô, gia sư hoặc phụ huynh muốn kèm con.</p></details>
+    <details><summary>Sách có theo đúng chương trình trên lớp không?</summary><p>Có. Mỗi chuyên đề ứng với một unit trong SGK Tiếng Anh 9: Tập 1 gồm Unit 1 đến 6, Tập 2 gồm Unit 7 đến 12.</p></details>
+    <details><summary>Nếu file bị lỗi hoặc gửi nhầm thì sao?</summary><p>Em nhắn Zalo cho cô trong vòng 7 ngày, cô gửi lại file đúng hoặc hoàn tiền nếu không khắc phục được.</p></details>
+  </section>
+</main>
+
+<footer><div class="wrap cot">
+  <div><h3>Nhà sách Grow with English</h3><p>Tài liệu tiếng Anh do Ms. Minh Thư biên soạn.</p><p>Người bán: Nguyễn Thị Minh Thư</p><p>Địa chỉ: Tân Phú, TP. Hồ Chí Minh</p></div>
+  <div><h3>Liên hệ</h3><p>Zalo: <a href="https://zalo.me/0966101957">0966.101.957</a></p><p>Email: <a href="mailto:minhthunt10@gmail.com">minhthunt10@gmail.com</a></p><p><a href="https://msminhthu.com">msminhthu.com</a></p></div>
+  <div><h3>Chính sách</h3><p>Hoàn tiền hoặc gửi lại file trong 7 ngày nếu file lỗi.</p><p>Thông tin em cung cấp chỉ dùng để gửi sách, không chia sẻ cho ai.</p></div>
+</div></footer>
+
+<div class="thanh" id="thanh"><div><span id="thanhSo">0 cuốn</span><b id="thanhTien">0đ</b></div><button class="nut chinh" id="thanhMo">Xem giỏ</button></div>
+
+<div class="man" id="man"></div>
+<aside class="ngan" id="ngan" aria-label="Giỏ sách">
+  <div class="dau-ngan"><h2>Giỏ sách</h2><button class="x" id="dongGio" aria-label="Đóng">✕</button></div>
+  <div class="buoc"><span class="on">1. Kiểm tra giỏ</span><span>2. Chuyển khoản</span><span>3. Nhận sách</span></div>
+  <div class="ds" id="dsGio"></div>
+  <div class="tong" id="tongGio"></div>
+</aside>
+
+<div class="lat" id="lat" role="dialog" aria-modal="true" aria-label="Đọc thử">
+  <div class="khung">
+    <div class="dau-ngan"><h2 id="latTen">Đọc thử</h2><button class="x" id="dongLat" aria-label="Đóng">✕</button></div>
+    <div class="trang" id="latTrang"></div>
+    <div class="het" id="latHet"><p>Hết phần đọc thử. Em thích thì bỏ sách vào giỏ nhé!</p><button class="nut chinh" id="latMua">Bỏ vào giỏ</button></div>
+    <div class="dk"><button class="nut phu" id="latTruoc">‹ Trước</button><span id="latSo"></span><button class="nut phu" id="latSau">Sau ›</button></div>
+  </div>
+</div>
+
+<script>
+var ZALO = '0966101957';
+// Giá gợi ý, cô sửa ở đây. le = 1 chuyên đề, ba = 3 chuyên đề bất kỳ, tap = trọn 1 tập (6 chuyên đề), nam = cả năm (12 chuyên đề)
+var GIA = { hs: { le: 25000, ba: 59000, tap: 89000, nam: 159000 }, gv: { le: 39000, ba: 99000, tap: 149000, nam: 249000 } };
+var CD = [
+  ['Question Words before To-infinitives and Phrasal Verbs', 'Local Community'],
+  ['Double Comparatives and Phrasal Verbs', 'City Life'],
+  ['Modal Verbs in First Conditional Sentences', 'Healthy Living for Teens'],
+  ['Past Continuous and Wish + Past Simple', 'Remembering the Past'],
+  ['Present Perfect', 'Our Experiences'],
+  ['Verbs + To-infinitive and V-ing', 'Vietnamese Lifestyle: Then and Now'],
+  ['Reported Speech: Yes/No Questions', 'Natural Wonders of the World'],
+  ['Relative Pronouns', 'Tourism'],
+  ['Defining Relative Clauses', 'World Englishes'],
+  ['Non-defining Relative Clauses', 'Planet Earth'],
+  ['Suggest, Advise, Recommend', 'Electronic Devices'],
+  ['Adverbial Clauses of Reason, Concession and Result', 'Career Choices']
+];
+var TRANG = { 1: 99, 2: 95 };   // số trang bản HS
+var DOC_THU = { 1: 8, 2: 8 };     // số ảnh đọc thử mỗi tập
+
+var ban = 'hs';
+var gio = { hs: [], gv: [] };   // danh sách số chuyên đề (1–12) đã chọn theo từng bản
+try { var luu = JSON.parse(localStorage.getItem('gwe-nhasach-gio') || 'null'); if (luu && luu.hs && luu.gv) gio = luu; } catch (e) {}
+
+function tien(n) { return n.toLocaleString('vi-VN') + 'đ'; }
+function tenBan(b) { return b === 'gv' ? 'Bản Giáo viên' : 'Bản Học sinh'; }
+function cdCuaTap(t) { var a = []; for (var i = (t - 1) * 6 + 1; i <= t * 6; i++) a.push(i); return a; }
+function luuGio() { try { localStorage.setItem('gwe-nhasach-gio', JSON.stringify(gio)); } catch (e) {} }
+
+// Tính giá rẻ nhất cho một bản: thử mua trọn từng tập hoặc không, phần lẻ còn lại gộp 3 chuyên đề một gói.
+function tinh(b) {
+  var g = GIA[b], chon = gio[b].slice().sort(function (x, y) { return x - y; }), n = chon.length;
+  if (!n) return { tien: 0, goc: 0, goi: [] };
+  var goc = n * g.le, tot = null;
+  if (n === 12) tot = { tien: g.nam, goi: ['Trọn bộ cả năm (12 chuyên đề)'] };
+  [[0, 0], [1, 0], [0, 1], [1, 1]].forEach(function (lc) {
+    var con = chon.slice(), t = 0, goi = [];
+    for (var k = 0; k < 2; k++) if (lc[k]) {
+      t += g.tap; goi.push('Trọn Tập ' + (k + 1));
+      con = con.filter(function (c) { return cdCuaTap(k + 1).indexOf(c) < 0; });
+    }
+    var bo = Math.floor(con.length / 3), le = con.length % 3;
+    t += bo * g.ba + le * g.le;
+    if (bo) goi.push(bo + ' gói 3 chuyên đề');
+    if (le) goi.push(le + ' chuyên đề lẻ');
+    if (lc[0] && lc[1]) { t = Math.min(t, g.nam); goi = ['Trọn bộ cả năm (12 chuyên đề)']; }
+    if (!tot || t < tot.tien) tot = { tien: t, goi: goi };
+  });
+  tot.goc = goc;
+  return tot;
+}
+
+function themCd(b, ds) { ds.forEach(function (c) { if (gio[b].indexOf(c) < 0) gio[b].push(c); }); luuGio(); veTatCa(); }
+function boCd(b, c) { gio[b] = gio[b].filter(function (x) { return x !== c; }); luuGio(); veTatCa(); }
+function coDu(b, ds) { return ds.every(function (c) { return gio[b].indexOf(c) >= 0; }); }
+
+function veUuDai() {
+  var g = GIA[ban];
+  document.getElementById('uudai').innerHTML =
+    '<div class="ud"><b>' + tien(g.le) + '</b><span>1 chuyên đề</span></div>' +
+    '<div class="ud"><b>' + tien(g.ba) + '</b><span>3 chuyên đề bất kỳ</span></div>' +
+    '<div class="ud"><b>' + tien(g.tap) + '</b><span>Trọn 1 tập (6 chuyên đề)</span></div>' +
+    '<div class="ud noi"><b>' + tien(g.nam) + '</b><span>Trọn bộ cả năm, tiết kiệm nhất</span></div>';
+}
+
+function veSach() {
+  var g = GIA[ban], le6 = 6 * g.le, le12 = 12 * g.le;
+  function the(id, anh, tem, ten, mo, ds, gia, goc, cds, docthu) {
+    var du = coDu(ban, cds);
+    return '<article class="the"><div class="anh">' + (tem ? '<span class="tem' + (id === 'nam' ? ' xanh' : '') + '">' + tem + '</span>' : '') + anh + '</div>' +
+      '<div class="noi-dung"><h3>' + ten + '</h3><div class="mo">' + mo + '</div><ul>' + ds + '</ul>' +
+      '<div class="gia"><b>' + tien(gia) + '</b><s>' + tien(goc) + '</s><span class="giam">−' + Math.round((1 - gia / goc) * 100) + '%</span></div>' +
+      '<div class="hang">' + (docthu ? '<button class="nut phu" data-docthu="' + docthu + '">Đọc thử</button>' : '<a class="nut phu" href="#le">Xem từng CĐ</a>') +
+      '<button class="nut chinh' + (du ? ' da' : '') + '" data-them="' + cds.join(',') + '">' + (du ? '✓ Đã trong giỏ' : 'Bỏ vào giỏ') + '</button></div></div></article>';
+  }
+  function dsCd(t) { return cdCuaTap(t).map(function (c) { return '<li>CĐ' + c + ' · ' + CD[c - 1][0] + '</li>'; }).slice(0, 3).join('') + '<li>… và 3 chuyên đề nữa</li>'; }
+  document.getElementById('luoiSach').innerHTML =
+    the('t1', '<img src="anh/bia-9-1.jpg" alt="Bìa Tập 1">', 'Học kỳ 1', 'Tiếng Anh 9 · Tập 1', 'Unit 1–6 · ' + TRANG[1] + ' trang · ' + tenBan(ban), dsCd(1), g.tap, le6, cdCuaTap(1), 1) +
+    the('t2', '<img src="anh/bia-9-2.jpg" alt="Bìa Tập 2">', 'Học kỳ 2', 'Tiếng Anh 9 · Tập 2', 'Unit 7–12 · ' + TRANG[2] + ' trang · ' + tenBan(ban), dsCd(2), g.tap, le6, cdCuaTap(2), 2) +
+    the('nam', '<div class="combo-anh"><img src="anh/bia-9-1.jpg" alt=""><img src="anh/bia-9-2.jpg" alt=""></div>', 'Tiết kiệm nhất', 'Trọn bộ cả năm', 'Tập 1 + Tập 2 · 12 chuyên đề · ' + tenBan(ban), '<li>Ôn trọn chương trình lớp 9</li><li>Hợp để ôn thi vào lớp 10</li><li>Rẻ hơn mua 2 tập riêng</li>', g.nam, le12, cdCuaTap(1).concat(cdCuaTap(2)), 0);
+}
+
+function veCd() {
+  var g = GIA[ban];
+  document.getElementById('luoiCd').innerHTML = CD.map(function (x, i) {
+    var c = i + 1, co = gio[ban].indexOf(c) >= 0, t2 = c > 6;
+    return '<article class="cd"><div class="bia' + (t2 ? ' t2' : '') + '"><span class="so">' + c + '</span><small>CHUYÊN ĐỀ ' + c + '</small><b>' + x[0] + '</b></div>' +
+      '<div class="duoi"><span>Tiếng Anh 9 · Unit ' + c + ': ' + x[1] + '</span><div class="gl"><b>' + tien(g.le) + '</b>' +
+      '<button class="them' + (co ? ' da' : '') + '" data-' + (co ? 'bo' : 'them') + '="' + c + '">' + (co ? '✓ Đã chọn' : '+ Chọn') + '</button></div></div></article>';
+  }).join('');
+}
+
+function veGio() {
+  var tong = 0, goc = 0, so = 0, html = '';
+  ['hs', 'gv'].forEach(function (b) {
+    if (!gio[b].length) return;
+    var r = tinh(b); tong += r.tien; goc += r.goc; so += gio[b].length;
+    html += '<div class="goi-ap"><b>' + tenBan(b) + ': ' + tien(r.tien) + '</b>Đã áp dụng: ' + r.goi.join(' + ') + '</div>';
+    var nhac = goiYThem(b); if (nhac) html += '<div class="nhac">' + nhac + '</div>';
+    gio[b].slice().sort(function (x, y) { return x - y; }).forEach(function (c) {
+      html += '<div class="mon"><span class="chip' + (c > 6 ? ' t2' : '') + '">CĐ' + c + '</span><div>' + CD[c - 1][0] + '<br><small>Unit ' + c + ' · ' + tenBan(b) + '</small></div><button class="xoa" data-bo-ban="' + b + '" data-bo="' + c + '">Bỏ</button></div>';
+    });
+  });
+  document.getElementById('dsGio').innerHTML = html || '<div class="trong-gio">Giỏ sách đang trống.<br>Em chọn một tập hoặc vài chuyên đề nhé!</div>';
+  document.getElementById('tongGio').innerHTML = so ?
+    '<div class="dong"><span>Tính lẻ từng chuyên đề</span><span>' + tien(goc) + '</span></div>' +
+    '<div class="dong"><span>Tiết kiệm nhờ gói</span><span>−' + tien(goc - tong) + '</span></div>' +
+    '<div class="dong lon"><span>Tổng</span><b>' + tien(tong) + '</b></div>' +
+    '<button class="nut chinh" id="datMua">Đặt mua qua Zalo</button><p>Bấm nút, đơn được chép sẵn. Em dán vào tin nhắn Zalo gửi cô, cô gửi mã QR chuyển khoản.</p>' : '';
+  document.getElementById('soGio').textContent = so;
+  document.getElementById('thanhSo').textContent = so + ' chuyên đề';
+  document.getElementById('thanhTien').textContent = tien(tong);
+  document.getElementById('thanh').classList.toggle('hien', so > 0 && !document.getElementById('ngan').classList.contains('mo'));
+}
+
+// Gợi ý chọn thêm khi sắp đủ gói tiếp theo
+function goiYThem(b) {
+  var g = GIA[b], n = gio[b].length;
+  if (n === 12) return '';
+  if (tinh(b).tien >= g.nam) return 'Giá đã bằng trọn bộ cả năm: thêm ' + (12 - n) + ' chuyên đề còn lại không tốn thêm đồng nào.';
+  for (var t = 1; t <= 2; t++) {
+    var co = cdCuaTap(t).filter(function (c) { return gio[b].indexOf(c) >= 0; }).length;
+    if (co >= 4 && co < 6) return 'Thêm ' + (6 - co) + ' chuyên đề nữa là đủ trọn Tập ' + t + ' chỉ ' + tien(g.tap) + '.';
+  }
+  if (n % 3) return 'Chọn thêm ' + (3 - n % 3) + ' chuyên đề, mỗi 3 chuyên đề chỉ ' + tien(g.ba) + '.';
+  return '';
+}
+
+function donHang() {
+  var dong = ['Em chào cô, em muốn đặt sách Chuyên đề ngữ pháp Tiếng Anh 9:'];
+  ['hs', 'gv'].forEach(function (b) {
+    if (!gio[b].length) return;
+    var r = tinh(b);
+    dong.push('- ' + tenBan(b) + ': CĐ ' + gio[b].slice().sort(function (x, y) { return x - y; }).join(', ') + ' (' + r.goi.join(' + ') + ') = ' + tien(r.tien));
+  });
+  dong.push('Tổng: ' + tien(tinh('hs').tien + tinh('gv').tien));
+  return dong.join('\n');
+}
+
+function veTatCa() { veUuDai(); veSach(); veCd(); veGio(); }
+
+// Đọc thử
+var lat = { tap: 1, i: 0 };
+function moLat(t) { lat.tap = t; lat.i = 0; document.getElementById('latTen').textContent = 'Đọc thử · Tiếng Anh 9 · Tập ' + t; document.getElementById('lat').classList.add('mo'); veLat(); }
+function buocLat() { return window.innerWidth > 640 ? 2 : 1; }
+function veLat() {
+  var n = DOC_THU[lat.tap], b = buocLat(), html = '';
+  for (var k = lat.i; k < Math.min(lat.i + b, n); k++) html += '<img src="anh/doc-thu/9-' + lat.tap + '/' + (k + 1) + '.jpg" alt="Trang ' + (k + 1) + '">';
+  document.getElementById('latTrang').innerHTML = html;
+  var cuoi = Math.min(lat.i + b, n);
+  document.getElementById('latSo').textContent = lat.i === 0 ? 'Bìa' : 'Trang ' + (lat.i + 1) + (cuoi > lat.i + 1 ? '–' + cuoi : '') + ' / ' + n;
+  document.getElementById('latTruoc').disabled = lat.i === 0;
+  document.getElementById('latSau').disabled = cuoi >= n;
+  document.getElementById('latHet').classList.toggle('hien', cuoi >= n);
+}
+function latSang(d) { var b = buocLat(), n = DOC_THU[lat.tap]; lat.i = Math.max(0, Math.min(lat.i + d * b, Math.floor((n - 1) / b) * b)); veLat(); }
+
+document.addEventListener('click', function (e) {
+  var el = e.target.closest('[data-them],[data-bo],[data-docthu],[data-ban]');
+  if (!el) return;
+  if (el.dataset.ban) { ban = el.dataset.ban; document.querySelectorAll('[data-ban]').forEach(function (x) { x.classList.toggle('on', x === el); }); veTatCa(); return; }
+  if (el.dataset.docthu) { moLat(+el.dataset.docthu); return; }
+  if (el.dataset.them) { themCd(ban, el.dataset.them.split(',').map(Number)); return; }
+  if (el.dataset.bo) { boCd(el.dataset.boBan || ban, +el.dataset.bo); }
+});
+function moGio() { document.getElementById('ngan').classList.add('mo'); document.getElementById('man').classList.add('mo'); veGio(); }
+function dongGio() { document.getElementById('ngan').classList.remove('mo'); document.getElementById('man').classList.remove('mo'); veGio(); }
+document.getElementById('moGio').onclick = moGio;
+document.getElementById('thanhMo').onclick = moGio;
+document.getElementById('dongGio').onclick = dongGio;
+document.getElementById('man').onclick = dongGio;
+document.getElementById('tongGio').addEventListener('click', function (e) {
+  if (e.target.id !== 'datMua') return;
+  var txt = donHang();
+  function mo() { window.open('https://zalo.me/' + ZALO, '_blank'); }
+  if (navigator.clipboard) navigator.clipboard.writeText(txt).then(function () { e.target.textContent = '✓ Đã chép đơn, đang mở Zalo…'; mo(); }, function () { prompt('Em chép đơn này gửi cô qua Zalo:', txt); mo(); });
+  else { prompt('Em chép đơn này gửi cô qua Zalo:', txt); mo(); }
+});
+document.getElementById('dongLat').onclick = function () { document.getElementById('lat').classList.remove('mo'); };
+document.getElementById('latTruoc').onclick = function () { latSang(-1); };
+document.getElementById('latSau').onclick = function () { latSang(1); };
+document.getElementById('latMua').onclick = function () { document.getElementById('lat').classList.remove('mo'); themCd(ban, cdCuaTap(lat.tap)); moGio(); };
+document.addEventListener('keydown', function (e) {
+  if (!document.getElementById('lat').classList.contains('mo')) { if (e.key === 'Escape') dongGio(); return; }
+  if (e.key === 'ArrowRight') latSang(1); else if (e.key === 'ArrowLeft') latSang(-1); else if (e.key === 'Escape') document.getElementById('lat').classList.remove('mo');
+});
+var x0 = null;
+document.getElementById('latTrang').addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+document.getElementById('latTrang').addEventListener('touchend', function (e) { if (x0 === null) return; var d = e.changedTouches[0].clientX - x0; if (Math.abs(d) > 40) latSang(d < 0 ? 1 : -1); x0 = null; });
+
+veTatCa();
+</script>
+</body></html>
